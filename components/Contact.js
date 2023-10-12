@@ -18,9 +18,9 @@ export default function Contact() {
               <br />
               <div className="box">
                   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512">
-                      <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c12.3 15.3 35.1 15.3 47.4 0zM192 256c-35.3 0-64-28.7-64-64s28.7-64 64-64s64 28.7 64 64s-28.7 64-64 64z"/>
+                      <path d="M215.7 499.2C267 435 384 279.4 384 192C384 86 298 0 192 0S0 86 0 192c0 87.4 117 243 168.3 307.2c9.7 12.1 29.9 12.1 39.6 0c3.2-4.1 7.9-8.1 7.8-8.1zM192 272c-44.1 0-80-35.9-80-80s35.9-80 80-80s80 35.9 80 80s-35.9 80-80 80zm0-128c-26.5 0-48 21.5-48 48s21.5 48 48 48s48-21.5 48-48s-21.5-48-48-48z"/>
                   </svg>
-                  <a href="https://www.google.com/maps/place/Virginia/">Virginia, United States</a>
+                  <a href="https://www.google.com/maps/place/Ashburn,+VA,+USA/">Virginia, USA</a>
               </div>
           </div>
       </section>

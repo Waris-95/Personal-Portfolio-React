@@ -1,3 +1,7 @@
+import Image from 'next/image';
+
+
+
 export default function Portfolio() {
     return (
       <section id="portfolio">
@@ -15,3 +19,4 @@ export default function Portfolio() {
       </section>
     );
 }
+ 
