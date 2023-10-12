@@ -1,0 +1,35 @@
+section#portfolio {
+    background-color: #1e1a2a;
+    text-align: center;
+    padding-bottom: 100px
+}
+
+.portfolio-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+
+    a {
+        display: block;
+        opacity: 0;
+        position: relative;
+        left: 50px;
+        transition: all .3s ease-in-out;
+
+        img {
+            width: 200px;     // Set a fixed width
+            height: 200px;    // Set a fixed height
+            object-fit: cover;
+        }
+    }
+
+    @for $i from 1 through 20 {
+        a:nth-child(#{$i + 1}) {transition-delay: #{$i * .1s}};
+    }
+}
+
+section#portfolio.visible a {
+    opacity: 1;
+    left: 0;
+}
+

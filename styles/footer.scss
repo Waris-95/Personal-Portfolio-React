@@ -1,0 +1,39 @@
+footer {
+    background-color: #13111b;
+
+    div.social {
+        display: flex;
+
+        svg {
+        height: 25px;
+        fill: white;
+        }
+
+        div.links {
+            padding: 0 50px;
+            
+            a {
+                position: relative;
+                top: -10px;
+                padding: 0 6px;
+
+            }
+        }
+
+        .line {
+            flex-grow: 1;
+            border-top: 2px solid rgb(246, 205, 164);
+
+        }
+    }
+
+    h2 {
+        margin-bottom: 0;
+        text-align: center;
+        padding: 50px 0;
+        // font-weight: 600;
+        color: rgb(246, 205, 164);
+        font-weight: normal;
+        font-size: 2rem;
+    }
+}

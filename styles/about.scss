@@ -1,0 +1,28 @@
+section#about{
+    background-color: #1e1a2a;
+    box-shadow: inset 0 10px 10px rgba(0,0,0,.4);
+    padding: 100px 0;
+    opacity: 0;
+    transition: opacity .3s linear;
+}
+
+section#about.visible{
+    opacity: 1;
+}
+
+section#about p{
+    padding-left: 60px;
+    line-height: 1.8rem;
+    font-size: 1.2rem;
+}
+
+section#about p.hello-text::before {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 2px;
+    background-color: rgb(246, 205, 164);
+    margin-left: -60px;
+    position: relative;
+    top: 15px;
+}

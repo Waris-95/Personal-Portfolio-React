@@ -1,0 +1,42 @@
+  @import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@600&family=Roboto&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: #171421;
+  font-family: 'Roboto', sans-serif;
+  color: #ffff;
+  overflow-x: hidden;
+  
+}
+
+.logo-header {
+  width: 90%;
+  max-width: 130px;
+  height: auto;
+}
+
+.center{
+  max-width: 780px;
+  margin: 0 auto;
+}
+
+/* This will target only the images inside the .skill-box */
+.skill-box img{
+  width: 100px;
+}
+
+
+
+h2{
+  font-family: 'Pixelify Sans', cursive;
+  font-size: 3rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+
+}
