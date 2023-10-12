@@ -36,13 +36,11 @@ export default function Home() {
 
     // Cleanup on component unmount
     return () => {
-      if (skillsTarget && skillsTarget instanceof Element) {
+      if (skillsTarget) {
         observer.unobserve(skillsTarget);
       }
       introTargets.forEach(elem => {
-        if (elem instanceof Element) {
-          observer.unobserve(elem);
-        }
+        observer.unobserve(elem);
       });
     };
   }, []);
