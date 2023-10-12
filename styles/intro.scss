@@ -61,3 +61,23 @@ section#intro img{
 section#intro.visible img{
    opacity: 1; 
 }
+
+// .img-container {
+//     width: 285px;
+//     padding-bottom: 103.15%; /* 294/285 * 100% */
+//     position: relative;
+// }
+
+// .img-container img {
+//     position: absolute;
+//     top: 0;
+//     left: 0;
+//     width: 100%;
+//     height: 100%;
+// }
+
+
+section#intro img {
+    width: 285px;
+    height: 294px;
+}
