@@ -7,3 +7,21 @@
 @import 'experience';
 @import 'contact';
 @import 'footer';
+
+/* styles/globals.scss */
+
+/* Common styles for both desktop and mobile */
+
+.grid-container {
+    width: 100%;
+    .column {
+       width: 50%; // or whatever percentage you deem fit
+    }
+ }
+ 
+ @media (max-width: 768px) {
+    .section {
+       margin-bottom: 20px; // Adjust as necessary
+    }
+ }
+ 

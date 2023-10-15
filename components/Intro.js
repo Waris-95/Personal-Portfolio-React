@@ -18,7 +18,7 @@ export default function Intro() {
                 <a href="#contact">Contact Me</a> {/* Pointing it to a contact section, adjust as necessary */}
             </div>
             <div className="img-container">
-...
+
 <Image src="/img/Image_2.png" alt="Abdul Waris" width={284} height={294} />
 
 

@@ -26,3 +26,8 @@ section#about p.hello-text::before {
     position: relative;
     top: 15px;
 }
+
+@media (max-width: 768px) {
+    // Your mobile-specific styles for the About section
+ }
+ 
