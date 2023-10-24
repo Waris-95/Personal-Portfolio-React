@@ -45,3 +45,35 @@ img {
   max-width: 100%;
   height: auto;
 }
+
+s// In globals.scss
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+// In globals.scss
+img, video, .some-div-class {
+  max-width: 100%;
+  display: block;
+}
+
+
+/* styles/header.scss */
+
+// Hide an element on screens with a maximum width of 768px
+@media screen and (max-width: 600px){
+  /* .container { */
+      .container span {
+      font-size: 50px;
+  }    
+}
+
+@media screen and (max-width: 768px){
+  /* .container { */
+      .container span {
+      font-size: 50px;
+  }    
+}

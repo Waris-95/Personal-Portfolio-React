@@ -41,14 +41,16 @@ body {
     font-size: 16px;
 }
 
-/* Example media query for Header component */
-@media (max-width: 768px) {
-    /* Add mobile-specific styles for the Header here */
-  }
-  
+@media screen and (max-width: 600px){
+    /* .container { */
+        .container span {
+        font-size: 50px;
+    }    
+}
 
-  .nav-link {
-    font-size: 1rem; // Adjust as necessary
-    padding: 12px 20px; // Increase padding for touch targets
- }
- 
+@media screen and (max-width: 768px){
+    /* .container { */
+        .container span {
+        font-size: 50px;
+    }    
+}

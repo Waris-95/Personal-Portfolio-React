@@ -19,9 +19,16 @@
     }
  }
  
- @media (max-width: 768px) {
-    .section {
-       margin-bottom: 20px; // Adjust as necessary
-    }
- }
- 
+ @media screen and (max-width: 600px){
+   /* .container { */
+       .container span {
+       font-size: 50px;
+   }    
+}
+
+@media screen and (max-width: 768px){
+   /* .container { */
+       .container span {
+       font-size: 50px;
+   }    
+}

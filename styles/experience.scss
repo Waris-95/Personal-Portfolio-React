@@ -36,8 +36,8 @@ section#experience{
             }
             span.arrow{
               display: inline-block;
-              width: 0;
-              height: 0;
+              width: 10px;
+              height: 30px;
               border-style: solid;
               border-width: 15px 0 15px 10px;
               border-color: transparent transparent transparent  #2a243c;
@@ -107,3 +107,20 @@ section#experience{
     section#experience.visible div.timeline div.item .line {
         max-height: 200px;
     }
+
+@media screen and (max-width: 600px) {
+    section#experience .timeline .item .date {
+        display: flex;
+        align-items: center;
+        span.year {
+            display: inline-block;
+            background-color: #2a243c;
+            padding: 0px 10px;
+            height: 30px;
+            line-height: 30px;
+        }
+        span.arrow {
+            display: none; /* Hide the arrow on smaller screens */
+        }
+    }
+}

@@ -5,7 +5,7 @@ export default function About() {
         <section id="about">
             <div className="center">
                 <h1>About</h1>
-                <p className="hello-text">Hello!</p>
+                <p className="hello-text">Hello!</p> 
 
                 <p>In middle school, I began creating HTML webpages, captivated by the magic of displaying GIFs. These simple projects were my introduction to the web world, leading me to expand my skills with JavaScript and CSS. Although transitioning from HTML to JavaScript was challenging, my passion kept me going.</p>
                 
