@@ -16,7 +16,7 @@ export default function Skills() {
                     <div className="skill-box"><Image src="/img/python.png" alt="Python Logo" width={50} height={50} /><span>Python</span></div>
                     <div className="skill-box"><Image src="/img/react.png" alt="React Logo" width={50} height={50} /><span>React</span></div> {/* Assuming the correct image for React should be `react.png` */}
                     <div className="skill-box"><Image src="/img/nodejs.png" alt="Node.js Logo" width={50} height={50} /><span>Node.js</span></div>
-                    <div className="skill-box"><Image src="/img/java.png" alt="Java Logo" width={50} height={50} /><span>Java</span></div>
+                    <div className="skill-box"><Image src="/img/Postgres.png" alt="Postgres Logo" width={50} height={50} /><span>PostgreSQL</span></div>
                 </div>
             </div>
         </section>

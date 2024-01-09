@@ -1,15 +1,13 @@
-
-
-section#intro{
+section#intro {
     max-width: 780px;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    // text-align: center;
+    /* text-align: center; */
 }
 
-section#intro p{
+section#intro p {
     color: white;
     font-size: 1.8rem;
     line-height: 2.6rem;
@@ -19,13 +17,12 @@ section#intro p{
     top: -50px;
 }
 
-section#intro.visible p{
+section#intro.visible p {
     opacity: 1;
     top: 0;
-
 }
 
-section#intro a{
+section#intro a {
     border: 3px solid rgb(225, 182, 90);
     border-radius: 7px;
     color: rgb(225, 182, 90);
@@ -40,52 +37,38 @@ section#intro a{
     bottom: -50px;
 }
 
-section#intro.visible a{
+section#intro.visible a {
     bottom: 0;
     opacity: 1;
 }
 
-section#intro span{
+section#intro span {
     color: rgb(225, 182, 90);
     font-family: 'Pixelify Sans', cursive;
     font-size: 3.2rem;
     font-weight: 600;
-    
 }
 
-section#intro img{
-    max-width:285px;
+section#intro img {
+    max-width: 285px;
     opacity: 0%;
     transition: opacity 1.2s linear;
 }
 
-section#intro.visible img{
-   opacity: 1; 
+section#intro.visible img {
+    opacity: 1;
 }
-
 
 section#intro img {
     width: 285px;
     height: 294px;
 }
 
-
-@media screen and (max-width: 600px){
-    /* .container { */
-        .container span {
-        font-size: 50px;
-    }    
-}
-
-@media screen and (max-width: 768px){
-    /* .container { */
-        .container span {
-        font-size: 50px;
-    }    
-}
-
-@media screen and (max-width: 600px) {
+/* Media query for smaller screens (e.g., iPhone 12 Pro) */
+@media screen and (max-width: 430px) {
     section#intro a {
         white-space: nowrap; /* Prevent line breaks in the "Contact Me" link */
     }
+
+    /* Additional styles for smaller screens if needed */
 }

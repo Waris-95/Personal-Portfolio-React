@@ -29,14 +29,17 @@ section#portfolio {
         }
     }
 
-    @media screen and (max-width: 600px) {
-        grid-template-columns: repeat(1, 1fr); // Display one column for small screens (iPhone 11 Pro)
+    @media screen and (max-width: 380px) {
+        grid-template-columns: repeat(1, 1fr); /* Display one column for small screens (iPhone 12 Pro) */
         justify-content: center; /* Center content horizontally for mobile users */
-        
+        right: 0; /* Set the right property to 0 to remove any right offset */
+    
         a {
-            left: 0; // Remove left position offset
+            /* Remove left position offset for anchor elements */
+            justify-content: center;
         }
     }
+    
 }
 
 section#portfolio.visible a {
