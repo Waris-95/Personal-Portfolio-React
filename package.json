@@ -9,10 +9,13 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "framer-motion": "^10.18.0",
     "next": "^13.5.4",
     "react": "latest",
     "react-dom": "latest",
-    "sass": "^1.68.0"
+    "sass": "^1.68.0",
+    "styled-components": "^6.1.8"
+    
   },
   "devDependencies": {
     "eslint": "latest",
