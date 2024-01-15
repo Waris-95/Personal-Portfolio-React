@@ -4,7 +4,7 @@ export default function Portfolio() {
   // Define an array of project titles
   const titles = [
     'Bose 700 Headphones',
-    'Coming Soon',
+    'Bit Bargain',
     'Coming Soon',
     'Coming Soon',
     'Coming Soon',
@@ -69,9 +69,9 @@ export default function Portfolio() {
               onLoad={addHoverEffect}
             />
           </a>
-          <a href="#">
+          <a href="https://bit-bargain-8m2k96vpu-waris-95s-projects.vercel.app" target="_blank" rel="noopener noreferrer">
             <img
-              src="/img/soon.jpg"
+              src="/img/bit-bargain.png"
               alt="Upcoming project"
               data-index="1"
               onLoad={addHoverEffect}
@@ -124,6 +124,8 @@ export default function Portfolio() {
 
         img:hover {
           transform: scale(1.5);
+
+          
         }
       `}</style>
     </section>
