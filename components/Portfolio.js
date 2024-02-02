@@ -77,10 +77,10 @@ export default function Portfolio() {
               onLoad={addHoverEffect}
             />
           </a>
-          <a href="#">
+          <a href="https://github.com/Waris-95/API-project" target="_blank" rel="noopener noreferrer">
             <img
-              src="/img/soon.jpg"
-              alt="Upcoming project"
+              src="https://developers.giphy.com/branch/master/static/api-c99e353f761d318322c853c03ebcf21b.gif"
+              alt="REST API project"
               data-index="2"
               onLoad={addHoverEffect}
             />
