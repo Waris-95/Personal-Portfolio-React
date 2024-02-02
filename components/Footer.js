@@ -1,6 +1,13 @@
 import React from 'react';
 
 export default function Footer() {
+  // const iframeContainerStyle = {
+  //   display: 'flex',
+  //   justifyContent: 'center',
+  //   alignItems: 'center',
+  //   height: '20vh', // Optional: Adjust the height as needed
+  // };
+
   return (
     <footer>
       <div className="social">
@@ -19,9 +26,22 @@ export default function Footer() {
         </div>
         <div className="line"></div>
       </div>
-      <a href="https://docs.google.com/document/d/1hThVfuzXMIxyXztPMgRYQVOrtu3YBPwO/edit?usp=sharing&ouid=106562624539350904716&rtpof=true&sd=true" target="_blank" rel="noopener noreferrer">
-        <h2>Click To View my resume</h2>
-      </a>
+      <div style={{ display: 'flex', justifyContent: 'center', alignItems: 'center', height: '10vh' }}>
+        <a
+          href="https://drive.google.com/file/d/15mLkO-Ev_KhwB5Bv0kv46-KPbCNdV-_e/preview"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <h2>Click to review resume ! </h2>
+          {/* <iframe
+            src="https://drive.google.com/file/d/15mLkO-Ev_KhwB5Bv0kv46-KPbCNdV-_e/preview"
+            width="640"
+            height="480"
+            allow="autoplay"
+            title="Your Resume"
+          /> */}
+        </a>
+      </div>
     </footer>
   );
 }
