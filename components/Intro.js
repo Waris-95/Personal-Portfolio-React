@@ -19,7 +19,7 @@ export default function Intro() {
             </div>
             <div className="img-container">
 
-<Image src="/img/Subject.png" alt="Abdul Waris" width={200} height={20} />
+<Image src="/img/Image_2.png" alt="Abdul Waris" width={200} height={20} />
 
 
             </div>
