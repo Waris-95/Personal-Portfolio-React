@@ -59,15 +59,16 @@ section#intro.visible img {
     opacity: 1;
 }
 
-section#intro img {
-    width: 285px;
-    height: 294px;
-}
+// section#intro img {
+//     width: 190px;
+//     height: 290px;
+// }
 
 /* Media query for smaller screens (e.g., iPhone 12 Pro) */
 @media screen and (max-width: 430px) {
     section#intro a {
         white-space: nowrap; /* Prevent line breaks in the "Contact Me" link */
+        overflow: hidden;
     }
 
     /* Additional styles for smaller screens if needed */
